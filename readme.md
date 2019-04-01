@@ -2,8 +2,8 @@
 
 ## findDiff
 
-找出第二个参数相对于第一个参数不同的地方\
-常用于表单提交前，只提交变化部分\
+找出第二个参数相对于第一个参数不同的地方  
+常用于表单提交前，只提交变化部分  
 参数必须为 2 个 json
 
 ```
@@ -65,7 +65,7 @@ jsonsToArray([json1, json2])
 
 ## downloadCsv
 
-将 jsons 下载成 csv(浏览器环境)\
+将 jsons 下载成 csv(浏览器环境)  
 与 jsonsToArray 函数配合使用，轻松实现导出 i18n 数据
 
 ```
@@ -73,6 +73,3 @@ const arr = jsonsToArray([zhCN,en, es])
 downloadCsv(arr)
 ```
 
-# ipguard-decrypt
-
-此文件内含有绕过 `ipguard` 生成未加密文件的秘密。
